@@ -40,9 +40,7 @@ Just type:
 composer require "byjg/anydataset-sparql=4.0.*"
 ```
 
-#### Running Unit tests
-
-Running the Unit tests
+## Running the Unit tests
 
 ```php
 vendor/bin/phpunit
