@@ -1,17 +1,16 @@
-# SparQL AnyDataset
+# AnyDataset-SparQL
 
 [![Opensource ByJG](https://img.shields.io/badge/opensource-byjg.com-brightgreen.svg)](http://opensource.byjg.com)
 [![Build Status](https://travis-ci.org/byjg/anydataset-sparql.svg?branch=master)](https://travis-ci.org/byjg/anydataset-sparql)
 
-## Description
 
 SparQL abstraction dataset. Anydataset is an agnostic data source abstraction layer in PHP. 
 
-See more about Anydataset [here](https://github.com/byjg/anydataset).
+See more about Anydataset [here](https://opensource.byjg.com/anydataset).
 
-## Examples
+# Examples
 
-### Simple Manipulation
+## Simple Manipulation
 
 ```php
 <?php
@@ -32,7 +31,7 @@ foreach ($iterator as $row) {
 }
 ```
 
-## Install
+# Install
 
 Just type: 
 
@@ -40,7 +39,7 @@ Just type:
 composer require "byjg/anydataset-sparql=4.0.*"
 ```
 
-## Running the Unit tests
+# Running the Unit tests
 
 ```php
 vendor/bin/phpunit
