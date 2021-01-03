@@ -4,7 +4,7 @@
 [![GitHub source](https://img.shields.io/badge/Github-source-informational?logo=github)](https://github.com/byjg/anydataset-sparql/)
 [![GitHub license](https://img.shields.io/github/license/byjg/anydataset-sparql.svg)](https://opensource.byjg.com/opensource/licensing.html)
 [![GitHub release](https://img.shields.io/github/release/byjg/anydataset-sparql.svg)](https://github.com/byjg/anydataset-sparql/releases/)
-[![Build Status](https://travis-ci.org/byjg/anydataset-sparql.svg?branch=master)](https://travis-ci.org/byjg/anydataset-sparql)
+[![Build Status](https://travis-ci.com/byjg/anydataset-sparql.svg?branch=master)](https://travis-ci.com/byjg/anydataset-sparql)
 
 
 SparQL abstraction dataset. Anydataset is an agnostic data source abstraction layer in PHP. 
