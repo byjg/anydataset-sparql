@@ -9,7 +9,7 @@ use PHPUnit\Framework\TestCase;
 class SparQLDatasetTest extends TestCase
 {
 
-    const SPARQL_URL = 'http://dbpedia.org/sparql';
+    const SPARQL_URL = 'https://dbpedia.org/sparql';
 
     protected static $SPARQL_NS = [
         'dbo' => 'http://dbpedia.org/ontology/',
@@ -75,15 +75,24 @@ class SparQLDatasetTest extends TestCase
         );
 
         $this->assertTrue($iterator->hasNext());
-        $this->assertEquals($iterator->count(), 1);
+        $this->assertEquals(2, $iterator->count());
 
-        $sr = $iterator->moveNext();
-
-        $this->assertEquals($sr->get("name"), "Garrick");
-        $this->assertEquals($sr->get("name.type"), "literal");
-        $this->assertEquals($sr->get("meaning"), "\"spear king\"");
-        $this->assertEquals($sr->get("meaning.type"), "literal");
-
-        $this->assertFalse($iterator->hasNext());
+        $this->assertEquals(
+            [
+                [
+                    "name" => "Garrick",
+                    "name.type" => "literal",
+                    "meaning" => "\"one who governs with a spear\", \"oak tree grove\"",
+                    "meaning.type" => "literal",
+                ],
+                [
+                    "name" => "Garrick",
+                    "name.type" => "literal",
+                    "meaning" => "\"spear king\", \"oak tree grove\"",
+                    "meaning.type" => "literal",
+                ]
+            ],
+            $iterator->toArray()
+        );
     }
 }
