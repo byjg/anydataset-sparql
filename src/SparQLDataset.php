@@ -21,11 +21,11 @@ class SparQLDataset
      */
     public function __construct($url, $namespaces = null)
     {
-        $this->connection = new Connection($url);
+        $this->connection = Connection::get($url);
 
         if (is_array($namespaces)) {
             foreach ($namespaces as $key => $value) {
-                $this->connection->ns($key, $value);
+                $this->connection->withNamespace($key, $value);
             }
         }
 
