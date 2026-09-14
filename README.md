@@ -2,7 +2,7 @@
 
 [![Opensource ByJG](https://img.shields.io/badge/opensource-byjg-success.svg)](http://opensource.byjg.com)
 [![GitHub source](https://img.shields.io/badge/Github-source-informational?logo=github)](https://github.com/byjg/anydataset-sparql/)
-[![GitHub license](https://img.shields.io/github/license/byjg/anydataset-sparql.svg)](https://opensource.byjg.com/opensource/licensing.html)
+[![GitHub license](https://img.shields.io/github/license/byjg/anydataset-sparql.svg)](https://opensource.byjg.com/license/)
 [![GitHub release](https://img.shields.io/github/release/byjg/anydataset-sparql.svg)](https://github.com/byjg/anydataset-sparql/releases/)
 [![Build Status](https://travis-ci.com/byjg/anydataset-sparql.svg?branch=master)](https://travis-ci.com/byjg/anydataset-sparql)
 
