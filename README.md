@@ -1,3 +1,7 @@
+---
+sidebar_category: data-access
+---
+
 # AnyDataset-SparQL
 
 [![Opensource ByJG](https://img.shields.io/badge/opensource-byjg-success.svg)](http://opensource.byjg.com)
